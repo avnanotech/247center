@@ -1,0 +1,306 @@
+		body
+{
+	margin: 0px;
+}
+table
+{
+	font-family: "Arial";
+	font-size: 9pt;
+	padding: 0px;
+	margin: 0px;
+    max-height:100%;
+}
+a{
+        font-size:12pt;
+}
+#xtabela
+{
+	width: 100%;
+}
+#tnas{
+	background-image: url("control-room.jpg");
+	background-size: 100% 100%;
+    }
+#ttnas{
+	font-size: 48pt;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	height: 100px;
+}
+#meni_lista
+{
+	height: 30px;
+	background-color: #000000;
+}
+#podmeni_lista
+{
+	height: 20px;
+	background-color: #000000;
+}
+
+.meni_stavka
+{
+	background-color: #535179;
+	color: #ddffff;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+.podmeni_stavka
+{
+	background-color: #535179;
+	color: #ffffff;
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#pano
+{
+	vertical-align: top;
+    height: 80%;
+}
+
+#xnastab
+{
+	background-color: #afdceb;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+
+#nastab,#xnastab,#nastabi,#nastaba,#nastabp,#nastabod
+{
+	background-color:#afdceb;
+	color: #000000;
+	font-weight: bold;
+	font-size: 12pt;
+}
+#nastabi{
+ width: 32.5%;
+}
+#nastabp{
+ width: 24.5%;
+}
+
+#nastaba{
+ width: 49%;
+}
+#nastabod{
+ width: 24.5%;
+}
+#txttab,#xtxttab
+{
+	background-color: #f7f7f7;
+	color: #000077;
+	font-weight: bold;
+	font-size: 10pt;
+}
+#dgm
+{
+	background-color: #668699;
+	color: #ffffff;
+	font-weight: bold;
+	width: 120px;
+	height: 30px;
+}
+#nasftab,#xnasftab
+{
+	background-color: #cccccc;
+	color: #000000;
+	font-weight: bold;
+	font-size: 10pt;
+	width: 7%;
+}
+#izbk,#txtftab,#xtxtftab,#txtftabi,#txtftaba,#txtftabaln,#txtftabals,#txtftabala
+{
+	background-color: #f7f7f7;
+	color: #000077;
+	font-weight: bold;
+	font-size: 10pt;
+	width: 20%;
+}
+#txtftaba{
+ width:49%;	
+}
+#txtftab{
+ width:24.5%;	
+}
+#txtftabI{
+ width:32.5%;	
+}
+
+#txtftabaln{
+ background-color: #c7f7c7;
+}
+#txtftabala{
+ background-color: #f7c7c7;
+}
+#txtftabals{
+ background-color: #f7e7c7;
+}
+#txtftabodn{
+ background-color: #d7d7d7;
+}
+#izbk{width: 100%;
+	background-color: #f7f7f7;
+	color: #000077;
+	font-weight: bold;
+	font-size: 10pt;
+}
+#xtxttab,#xnastab
+{
+	width: 33%;
+}
+#xtxtftab,#xnasFtab
+{
+	width: 50%;
+}
+.mnkon,#kontab,.kontxt{
+ background-color: #000099;
+ color: #ffffff;
+ font-size:12pt;
+ font-weight: bold;
+ text-align: center;
+ width:50px;	
+}
+.kontxt{
+ background-color: #999999;
+}
+.mnkon{
+ width:30px;	
+}
+#ftabela{
+ width:95%;
+ position: relative;
+ left:2%;	
+ top:5%;
+}
+
+
+#rupa
+{
+	background-color: black;
+}
+#oks
+{
+	background-color: #222266;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 10pt;
+	text-align: center;
+}
+
+#zavesa
+{
+	visibility: visible;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 1000;
+	background-color: #000077;
+	opacity: 0.5;
+}
+#brava{
+    width: 400px;
+    height: 400px;
+}
+#dialog_potvrda{
+ 	visibility: visible;
+	position: fixed;
+	font-size: 20pt;
+	font-weight: bold;
+	left: 250px;
+	top: 250px;
+	width: 350px;
+	height: 150px;
+	text-align: center;
+	z-index: 1001;
+	border: 10px solid;
+        border-image: repeating-linear-gradient(#000000,#999999 10%) 10 50;
+	background-color:#00cc00;
+	color: #ffffff;
+}
+.obsl{
+  background:url('plaza.jpg');
+  background-size: 100% 100%;
+  height:38px;	
+  width: 50px;
+}
+#dialog_unos,#dialog_map{
+ 	visibility: visible;
+	position: fixed;
+	font-weight: bold;
+	left: 250px;
+	top: 250px;
+	width: 60%;
+	text-align: center;
+	z-index: 1001;
+	border: 10px solid;
+        border-image: repeating-linear-gradient(#000000,#999999 10%) 10 50;
+        background-color:#ffffff;
+}
+#dialog_map{
+   left: 250px;
+   top: 100px;
+   width: 500px;
+   height: 500px;
+   text-align: center;
+   z-index: 1001;
+}
+#dialog_slike{
+ 	visibility: visible;
+	position: fixed;
+	font-weight: bold;
+	left: 250px;
+	top: 250px;
+	width: 60%;
+	text-align: center;
+	z-index: 1001;
+	border: 10px solid;
+        border-image: repeating-linear-gradient(#000000,#999999 10%) 10 50;
+        background-color:#ffffff;
+        width: 550px;
+        height: 350px;
+}
+#slpano{
+ width:400px;
+ height:300px;	
+ background-color: #cccccc;
+}
+#minisl{
+ width:60px;
+ height:60px;	
+ background-color: #aaaaaa;
+}
+#evlog{
+    background:url('back.png');
+    height: 100%;
+}
+.mnizb,.izbor,.inptxt{
+ background-color:#ffffff;
+ color:#000077;
+ border:2px solid	#000077;
+ font-weight: bold;
+}
+.inptxt{
+ width:100%;	
+}
+.infoc{
+ background-color: #000000;
+ color: #dcfcfe;
+ opacity: 0.8;
+ width:200px;
+ text-align: center;
+ font-weight:bold;
+ font-size: 16pt;
+}
+#ullog{
+    background: url('back.png');
+    height: 100%;
+}

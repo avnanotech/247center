@@ -1,0 +1,32 @@
+<?php
+  $fkln=$_REQUEST["kklid"];
+    require("veza.php");
+  $spis="SELECT * FROM  imenik_klijenti WHERE klkln=".$fkln;
+  $ishod=mysqli_query($con,$spis);
+$row= mysqli_fetch_array($ishod);
+echo "<table id=ftabela>";
+echo "<tr><td id=xnasftab>ID KLIJENTA</td><td id=xtxtftab>";
+echo "<input type=text class=inptxt name=inptxt value='".$row["idmon"]."'></td></tr>	";
+echo "<tr><td id=xnasftab>NAZIV KLIJENTA</td><td id=xtxtftab>";
+echo "<input type=text  class=inptxt name=inptxt value='".$row["nazkl"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>ADRESA</td><td id=xtxtftab>";
+echo "<input type=text  class=inptxt name=inptxt value='".$row["adrkl"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>MESTO</td><td id=xtxtftab>";
+echo "<input type=text class=inptxt name=inptxt value='".$row["mstkl"]."'></td></tr>	";
+echo "<tr><td id=xnasftab>FIKSNI</td><td id=xtxtftab>";
+echo "<input type=text  class=inptxt name=inptxt value='".$row["fiks"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>E-MAIL</td><td id=xtxtftab>";
+echo "<input type=text  class=inptxt name=inptxt value='".$row["email"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>RADNO VREME</td><td  id=xtxtftab>";
+echo "<input type=text class=inptxt name=inptxt value='".$row["radvr"]."'></td></tr>	";
+echo "<tr><td id=xnasftab>VRSTA KLIJENTA</td><td  id=xtxtftab>";
+echo "<input type=text class=inptxt name=inptxt  value='".$row["vrsta"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>GRUPA OBILASKA</td><td  id=xtxtftab>";
+echo "<input type=text  class=inptxt name=inptxt  value='".$row["gruob"]."'></td></tr>";	
+echo "<tr><td id=xnasftab>GPS LOKACIJA</td><td id=xtxtftab>";
+echo "<input  type=text  class=inptxt name=inptxt value='".$row["gps"]."'></td></tr>";	
+echo "</table>";
+echo "<input type=button class=dugme_forma  value=IZMENE>";
+echo "<input type=button class=dugme_forma tag='".$row["stat"]."' value=STATUS>";
+echo "<input type=button class=dugme_forma value=IZLAZ>";
+?>
